@@ -48,4 +48,15 @@ import pandas as pd
 url = "[https://raw.githubusercontent.com/knkh/tech4nt/main/data/diabetes_clean.csv](https://raw.githubusercontent.com/knkh/tech4nt/main/data/diabetes_clean.csv)"
 df = pd.read_csv(url)
 
+For illustration, demo dataset and saved models can be used in the executor.
+use it for dry run only. 
 
+📊 instruments to be traded:
+
+1. cash and future, the saved models may be used
+2. option trading, collect option data separately. 
+Preferably, nifty option trading is a good starting point.
+Collect nifty call and put options together with strike price 
+at or near nifty cash price. 
+Remember: nifty cash is a very good estimator of the current 
+nifty future for option trading.
